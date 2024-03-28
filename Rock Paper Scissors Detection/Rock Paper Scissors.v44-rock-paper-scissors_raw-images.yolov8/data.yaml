@@ -1,0 +1,14 @@
+path: '/content/gdrive/My Drive/Rock Paper Scissors Detection/Rock Paper Scissors.v44-rock-paper-scissors_raw-images.yolov8'
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Paper', 'Rock', 'Scissors']
+
+roboflow:
+  workspace: team-roboflow
+  project: rock-paper-scissors-detection
+  version: 44
+  license: Private
+  url: https://universe.roboflow.com/team-roboflow/rock-paper-scissors-detection/dataset/44
